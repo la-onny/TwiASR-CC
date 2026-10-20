@@ -1,0 +1,54 @@
+{
+  "liveStreamingPhrases": [
+    "Akyɛ! Ɛnnɛ yɛbɛkasa afa sɛnea yɛyɛ yɛn nsɛm ho nhyehyɛe no ho.",
+    "Sɛ wowɔ adwene bi a, kyerɛw no na wo werɛ amfi...",
+    "Yɛadu Kumasi. Yɛrekɔ Kejetia gua no mu.",
+    "Hwɛ sɛnea Kejetia gua no mu ayɛ hyew!",
+    "Ma yɛnkɔtɔ aduan bi ansa na yɛakɔ fie."
+  ],
+  "mockProjects": [
+    {
+      "id": "proj-1",
+      "title": "TikTok_Twi_Skit_04.mp3",
+      "duration": "02:16",
+      "date": "15 Oct 2026",
+      "language": "Twi",
+      "subtitles": [
+        {
+          "id": "s1",
+          "timestamp": "00:01:04",
+          "text": "Yɛadu Kumasi. Yɛrekɔ Kejetia gua no mu."
+        },
+        {
+          "id": "s2",
+          "timestamp": "00:01:12",
+          "text": "Hwɛ sɛnea Kejetia gua no mu ayɛ hyew!"
+        },
+        {
+          "id": "s3",
+          "timestamp": "00:01:20",
+          "text": "Ma yɛnkɔtɔ aduan bi ansa na yɛakɔ fie."
+        }
+      ]
+    },
+    {
+      "id": "proj-2",
+      "title": "YouTube_Vlog_Kumasi_Voiceover.m4a",
+      "duration": "08:42",
+      "date": "14 Oct 2026",
+      "language": "Twi",
+      "subtitles": [
+        {
+          "id": "s4",
+          "timestamp": "00:00:18",
+          "text": "Yɛadu Kumasi. Yɛrekɔ Kejetia gua no mu."
+        },
+        {
+          "id": "s5",
+          "timestamp": "00:00:26",
+          "text": "Hwɛ sɛnea Kejetia gua no mu ayɛ hyew!"
+        }
+      ]
+    }
+  ]
+}
