@@ -1,6 +1,5 @@
 import * as DocumentPicker from "expo-document-picker";
 import {
-    AudioLines,
     CheckCircle2,
     CloudUpload,
     FileAudio2,
@@ -90,14 +89,8 @@ export function UploadScreen() {
 
       <View className="mt-6 flex-row items-center justify-between">
         <Text className="text-[13px] font-medium text-slate-500">
-          Transcription language
+          Transcription
         </Text>
-        <View className="flex-row items-center gap-1 rounded-full bg-blue-50 px-2.5 py-1.5">
-          <AudioLines size={12} color="#2563EB" />
-          <Text className="text-[11px] font-semibold text-blue-600">
-            Twi - Akan
-          </Text>
-        </View>
       </View>
 
       <View className="mt-4 rounded-2xl border border-slate-200 p-4">

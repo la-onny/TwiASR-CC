@@ -55,12 +55,6 @@ export function RecordScreen() {
         Your voice. Your language. In writing.
       </Text>
       <View className="mt-26 flex-row items-center justify-between">
-        <View className="flex-row items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1.5">
-          <Mic2 size={13} color="#2563EB" />
-          <Text className="text-[11px] font-semibold text-blue-600">
-            Twi - Akan
-          </Text>
-        </View>
         <View className="flex-row items-center gap-1.5">
           <View
             className={`h-2 w-2 rounded-full ${recorder.isRecording && !recorder.isPaused ? "bg-blue-600" : "bg-slate-300"}`}
@@ -69,8 +63,8 @@ export function RecordScreen() {
             {recorder.isRecording
               ? recorder.isPaused
                 ? "Paused"
-                : "Recording in progress"
-              : "Ready to record"}
+                : "Recording"
+              : "Press to start recording"}
           </Text>
         </View>
       </View>
@@ -103,12 +97,7 @@ export function RecordScreen() {
           </Text>
           <View className="h-2 w-2 rounded-full bg-emerald-500" />
         </View>
-        <View className="mt-2 flex-row items-center gap-1.5">
-          <View className="h-1.5 w-1.5 rounded-full bg-blue-600" />
-          <Text className="text-[11px] font-medium text-blue-600">
-            ASR Active - Listening...
-          </Text>
-        </View>
+
         <View className="mt-3 gap-3">
           {recorder.phrases.map((phrase, index) => (
             <Text
